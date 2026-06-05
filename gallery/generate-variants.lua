@@ -72,6 +72,10 @@ local function span_attributes(style)
   return table.concat(attrs, " ")
 end
 
+local function format_number(value)
+  return string.format("%.2f", value):gsub("%.?0+$", "")
+end
+
 local function syntax_style(line_number, column, normal_fg)
   local syntax_id = vim.fn.synIDtrans(vim.fn.synID(line_number, column, true))
   local group = vim.fn.synIDattr(syntax_id, "name")
@@ -215,8 +219,20 @@ local function render_variant(variant)
 
     table.insert(svg, '<text x="' .. code_x .. '" y="' .. y .. '" font-family="' .. font_family .. '" font-size="' .. font_size .. '" xml:space="preserve">')
 
+    local column = 0
     for _, span in ipairs(row.spans) do
-      table.insert(svg, '<tspan ' .. span_attributes(span.style) .. '>' .. escape_xml(span.text) .. '</tspan>')
+      local attrs = span_attributes(span.style)
+
+      for index = 1, #span.text do
+        local char = span.text:sub(index, index)
+
+        if char ~= " " then
+          local x = code_x + (column * char_width)
+          table.insert(svg, '<tspan x="' .. format_number(x) .. '" ' .. attrs .. '>' .. escape_xml(char) .. '</tspan>')
+        end
+
+        column = column + 1
+      end
     end
 
     table.insert(svg, '</text>')

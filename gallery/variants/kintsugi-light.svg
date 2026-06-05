@@ -5,235 +5,830 @@
 <text x="892" y="30" fill="#9a8858" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">sample.rs · IoskeleyMono Nerd Font</text>
 <text x="28" y="60" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">1</text>
 <text x="40" y="60" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#9a7820" font-weight="700">pub</tspan>
-<tspan fill="#2a2818"> </tspan>
-<tspan fill="#9a7820" font-weight="700">fn</tspan>
-<tspan fill="#2a2818"> schema_or_config&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
-<tspan fill="#2a2818">, T&gt;(</tspan>
+<tspan x="40" fill="#9a7820" font-weight="700">p</tspan>
+<tspan x="48.68" fill="#9a7820" font-weight="700">u</tspan>
+<tspan x="57.36" fill="#9a7820" font-weight="700">b</tspan>
+<tspan x="74.72" fill="#9a7820" font-weight="700">f</tspan>
+<tspan x="83.4" fill="#9a7820" font-weight="700">n</tspan>
+<tspan x="100.76" fill="#2a2818">s</tspan>
+<tspan x="109.44" fill="#2a2818">c</tspan>
+<tspan x="118.12" fill="#2a2818">h</tspan>
+<tspan x="126.8" fill="#2a2818">e</tspan>
+<tspan x="135.48" fill="#2a2818">m</tspan>
+<tspan x="144.16" fill="#2a2818">a</tspan>
+<tspan x="152.84" fill="#2a2818">_</tspan>
+<tspan x="161.52" fill="#2a2818">o</tspan>
+<tspan x="170.2" fill="#2a2818">r</tspan>
+<tspan x="178.88" fill="#2a2818">_</tspan>
+<tspan x="187.56" fill="#2a2818">c</tspan>
+<tspan x="196.24" fill="#2a2818">o</tspan>
+<tspan x="204.92" fill="#2a2818">n</tspan>
+<tspan x="213.6" fill="#2a2818">f</tspan>
+<tspan x="222.28" fill="#2a2818">i</tspan>
+<tspan x="230.96" fill="#2a2818">g</tspan>
+<tspan x="239.64" fill="#2a2818">&lt;</tspan>
+<tspan x="248.32" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="257" fill="#5a6060" font-weight="700">p</tspan>
+<tspan x="265.68" fill="#5a6060" font-weight="700">y</tspan>
+<tspan x="274.36" fill="#2a2818">,</tspan>
+<tspan x="291.72" fill="#2a2818">T</tspan>
+<tspan x="300.4" fill="#2a2818">&gt;</tspan>
+<tspan x="309.08" fill="#2a2818">(</tspan>
 </text>
 <text x="28" y="80" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">2</text>
 <text x="40" y="80" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    schema: </tspan>
-<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
-<tspan fill="#2a2818">Bound&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
-<tspan fill="#2a2818">, PyDict&gt;,</tspan>
+<tspan x="74.72" fill="#2a2818">s</tspan>
+<tspan x="83.4" fill="#2a2818">c</tspan>
+<tspan x="92.08" fill="#2a2818">h</tspan>
+<tspan x="100.76" fill="#2a2818">e</tspan>
+<tspan x="109.44" fill="#2a2818">m</tspan>
+<tspan x="118.12" fill="#2a2818">a</tspan>
+<tspan x="126.8" fill="#2a2818">:</tspan>
+<tspan x="144.16" fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan x="152.84" fill="#2a2818">B</tspan>
+<tspan x="161.52" fill="#2a2818">o</tspan>
+<tspan x="170.2" fill="#2a2818">u</tspan>
+<tspan x="178.88" fill="#2a2818">n</tspan>
+<tspan x="187.56" fill="#2a2818">d</tspan>
+<tspan x="196.24" fill="#2a2818">&lt;</tspan>
+<tspan x="204.92" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="213.6" fill="#5a6060" font-weight="700">p</tspan>
+<tspan x="222.28" fill="#5a6060" font-weight="700">y</tspan>
+<tspan x="230.96" fill="#2a2818">,</tspan>
+<tspan x="248.32" fill="#2a2818">P</tspan>
+<tspan x="257" fill="#2a2818">y</tspan>
+<tspan x="265.68" fill="#2a2818">D</tspan>
+<tspan x="274.36" fill="#2a2818">i</tspan>
+<tspan x="283.04" fill="#2a2818">c</tspan>
+<tspan x="291.72" fill="#2a2818">t</tspan>
+<tspan x="300.4" fill="#2a2818">&gt;</tspan>
+<tspan x="309.08" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="100" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">3</text>
 <text x="40" y="100" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    config: </tspan>
-<tspan fill="#5a6060">Option</tspan>
-<tspan fill="#2a2818">&lt;</tspan>
-<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
-<tspan fill="#2a2818">Bound&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
-<tspan fill="#2a2818">, PyDict&gt;&gt;,</tspan>
+<tspan x="74.72" fill="#2a2818">c</tspan>
+<tspan x="83.4" fill="#2a2818">o</tspan>
+<tspan x="92.08" fill="#2a2818">n</tspan>
+<tspan x="100.76" fill="#2a2818">f</tspan>
+<tspan x="109.44" fill="#2a2818">i</tspan>
+<tspan x="118.12" fill="#2a2818">g</tspan>
+<tspan x="126.8" fill="#2a2818">:</tspan>
+<tspan x="144.16" fill="#5a6060">O</tspan>
+<tspan x="152.84" fill="#5a6060">p</tspan>
+<tspan x="161.52" fill="#5a6060">t</tspan>
+<tspan x="170.2" fill="#5a6060">i</tspan>
+<tspan x="178.88" fill="#5a6060">o</tspan>
+<tspan x="187.56" fill="#5a6060">n</tspan>
+<tspan x="196.24" fill="#2a2818">&lt;</tspan>
+<tspan x="204.92" fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan x="213.6" fill="#2a2818">B</tspan>
+<tspan x="222.28" fill="#2a2818">o</tspan>
+<tspan x="230.96" fill="#2a2818">u</tspan>
+<tspan x="239.64" fill="#2a2818">n</tspan>
+<tspan x="248.32" fill="#2a2818">d</tspan>
+<tspan x="257" fill="#2a2818">&lt;</tspan>
+<tspan x="265.68" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="274.36" fill="#5a6060" font-weight="700">p</tspan>
+<tspan x="283.04" fill="#5a6060" font-weight="700">y</tspan>
+<tspan x="291.72" fill="#2a2818">,</tspan>
+<tspan x="309.08" fill="#2a2818">P</tspan>
+<tspan x="317.76" fill="#2a2818">y</tspan>
+<tspan x="326.44" fill="#2a2818">D</tspan>
+<tspan x="335.12" fill="#2a2818">i</tspan>
+<tspan x="343.8" fill="#2a2818">c</tspan>
+<tspan x="352.48" fill="#2a2818">t</tspan>
+<tspan x="361.16" fill="#2a2818">&gt;</tspan>
+<tspan x="369.84" fill="#2a2818">&gt;</tspan>
+<tspan x="378.52" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="120" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">4</text>
 <text x="40" y="120" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    schema_key: </tspan>
-<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
-<tspan fill="#2a2818">Bound&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
-<tspan fill="#2a2818">, PyString&gt;,</tspan>
+<tspan x="74.72" fill="#2a2818">s</tspan>
+<tspan x="83.4" fill="#2a2818">c</tspan>
+<tspan x="92.08" fill="#2a2818">h</tspan>
+<tspan x="100.76" fill="#2a2818">e</tspan>
+<tspan x="109.44" fill="#2a2818">m</tspan>
+<tspan x="118.12" fill="#2a2818">a</tspan>
+<tspan x="126.8" fill="#2a2818">_</tspan>
+<tspan x="135.48" fill="#2a2818">k</tspan>
+<tspan x="144.16" fill="#2a2818">e</tspan>
+<tspan x="152.84" fill="#2a2818">y</tspan>
+<tspan x="161.52" fill="#2a2818">:</tspan>
+<tspan x="178.88" fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan x="187.56" fill="#2a2818">B</tspan>
+<tspan x="196.24" fill="#2a2818">o</tspan>
+<tspan x="204.92" fill="#2a2818">u</tspan>
+<tspan x="213.6" fill="#2a2818">n</tspan>
+<tspan x="222.28" fill="#2a2818">d</tspan>
+<tspan x="230.96" fill="#2a2818">&lt;</tspan>
+<tspan x="239.64" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="248.32" fill="#5a6060" font-weight="700">p</tspan>
+<tspan x="257" fill="#5a6060" font-weight="700">y</tspan>
+<tspan x="265.68" fill="#2a2818">,</tspan>
+<tspan x="283.04" fill="#2a2818">P</tspan>
+<tspan x="291.72" fill="#2a2818">y</tspan>
+<tspan x="300.4" fill="#2a2818">S</tspan>
+<tspan x="309.08" fill="#2a2818">t</tspan>
+<tspan x="317.76" fill="#2a2818">r</tspan>
+<tspan x="326.44" fill="#2a2818">i</tspan>
+<tspan x="335.12" fill="#2a2818">n</tspan>
+<tspan x="343.8" fill="#2a2818">g</tspan>
+<tspan x="352.48" fill="#2a2818">&gt;</tspan>
+<tspan x="361.16" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="140" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">5</text>
 <text x="40" y="140" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    config_key: </tspan>
-<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
-<tspan fill="#2a2818">Bound&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
-<tspan fill="#2a2818">, PyString&gt;,</tspan>
+<tspan x="74.72" fill="#2a2818">c</tspan>
+<tspan x="83.4" fill="#2a2818">o</tspan>
+<tspan x="92.08" fill="#2a2818">n</tspan>
+<tspan x="100.76" fill="#2a2818">f</tspan>
+<tspan x="109.44" fill="#2a2818">i</tspan>
+<tspan x="118.12" fill="#2a2818">g</tspan>
+<tspan x="126.8" fill="#2a2818">_</tspan>
+<tspan x="135.48" fill="#2a2818">k</tspan>
+<tspan x="144.16" fill="#2a2818">e</tspan>
+<tspan x="152.84" fill="#2a2818">y</tspan>
+<tspan x="161.52" fill="#2a2818">:</tspan>
+<tspan x="178.88" fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan x="187.56" fill="#2a2818">B</tspan>
+<tspan x="196.24" fill="#2a2818">o</tspan>
+<tspan x="204.92" fill="#2a2818">u</tspan>
+<tspan x="213.6" fill="#2a2818">n</tspan>
+<tspan x="222.28" fill="#2a2818">d</tspan>
+<tspan x="230.96" fill="#2a2818">&lt;</tspan>
+<tspan x="239.64" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="248.32" fill="#5a6060" font-weight="700">p</tspan>
+<tspan x="257" fill="#5a6060" font-weight="700">y</tspan>
+<tspan x="265.68" fill="#2a2818">,</tspan>
+<tspan x="283.04" fill="#2a2818">P</tspan>
+<tspan x="291.72" fill="#2a2818">y</tspan>
+<tspan x="300.4" fill="#2a2818">S</tspan>
+<tspan x="309.08" fill="#2a2818">t</tspan>
+<tspan x="317.76" fill="#2a2818">r</tspan>
+<tspan x="326.44" fill="#2a2818">i</tspan>
+<tspan x="335.12" fill="#2a2818">n</tspan>
+<tspan x="343.8" fill="#2a2818">g</tspan>
+<tspan x="352.48" fill="#2a2818">&gt;</tspan>
+<tspan x="361.16" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="160" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">6</text>
 <text x="40" y="160" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">) -&gt; PyResult&lt;</tspan>
-<tspan fill="#5a6060">Option</tspan>
-<tspan fill="#2a2818">&lt;T&gt;&gt;</tspan>
+<tspan x="40" fill="#2a2818">)</tspan>
+<tspan x="57.36" fill="#2a2818">-</tspan>
+<tspan x="66.04" fill="#2a2818">&gt;</tspan>
+<tspan x="83.4" fill="#2a2818">P</tspan>
+<tspan x="92.08" fill="#2a2818">y</tspan>
+<tspan x="100.76" fill="#2a2818">R</tspan>
+<tspan x="109.44" fill="#2a2818">e</tspan>
+<tspan x="118.12" fill="#2a2818">s</tspan>
+<tspan x="126.8" fill="#2a2818">u</tspan>
+<tspan x="135.48" fill="#2a2818">l</tspan>
+<tspan x="144.16" fill="#2a2818">t</tspan>
+<tspan x="152.84" fill="#2a2818">&lt;</tspan>
+<tspan x="161.52" fill="#5a6060">O</tspan>
+<tspan x="170.2" fill="#5a6060">p</tspan>
+<tspan x="178.88" fill="#5a6060">t</tspan>
+<tspan x="187.56" fill="#5a6060">i</tspan>
+<tspan x="196.24" fill="#5a6060">o</tspan>
+<tspan x="204.92" fill="#5a6060">n</tspan>
+<tspan x="213.6" fill="#2a2818">&lt;</tspan>
+<tspan x="222.28" fill="#2a2818">T</tspan>
+<tspan x="230.96" fill="#2a2818">&gt;</tspan>
+<tspan x="239.64" fill="#2a2818">&gt;</tspan>
 </text>
 <text x="28" y="180" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">7</text>
 <text x="40" y="180" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#9a7820" font-weight="700">where</tspan>
+<tspan x="40" fill="#9a7820" font-weight="700">w</tspan>
+<tspan x="48.68" fill="#9a7820" font-weight="700">h</tspan>
+<tspan x="57.36" fill="#9a7820" font-weight="700">e</tspan>
+<tspan x="66.04" fill="#9a7820" font-weight="700">r</tspan>
+<tspan x="74.72" fill="#9a7820" font-weight="700">e</tspan>
 </text>
 <text x="28" y="200" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">8</text>
 <text x="40" y="200" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    T: FromPyObject&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
-<tspan fill="#2a2818">&gt;,</tspan>
+<tspan x="74.72" fill="#2a2818">T</tspan>
+<tspan x="83.4" fill="#2a2818">:</tspan>
+<tspan x="100.76" fill="#2a2818">F</tspan>
+<tspan x="109.44" fill="#2a2818">r</tspan>
+<tspan x="118.12" fill="#2a2818">o</tspan>
+<tspan x="126.8" fill="#2a2818">m</tspan>
+<tspan x="135.48" fill="#2a2818">P</tspan>
+<tspan x="144.16" fill="#2a2818">y</tspan>
+<tspan x="152.84" fill="#2a2818">O</tspan>
+<tspan x="161.52" fill="#2a2818">b</tspan>
+<tspan x="170.2" fill="#2a2818">j</tspan>
+<tspan x="178.88" fill="#2a2818">e</tspan>
+<tspan x="187.56" fill="#2a2818">c</tspan>
+<tspan x="196.24" fill="#2a2818">t</tspan>
+<tspan x="204.92" fill="#2a2818">&lt;</tspan>
+<tspan x="213.6" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="222.28" fill="#5a6060" font-weight="700">p</tspan>
+<tspan x="230.96" fill="#5a6060" font-weight="700">y</tspan>
+<tspan x="239.64" fill="#2a2818">&gt;</tspan>
+<tspan x="248.32" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="220" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">9</text>
 <text x="40" y="220" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">{</tspan>
+<tspan x="40" fill="#2a2818">{</tspan>
 </text>
 <text x="28" y="240" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">10</text>
 <text x="40" y="240" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    </tspan>
-<tspan fill="#9a7820" font-weight="700">match</tspan>
-<tspan fill="#2a2818"> schema.get_as(schema_key)</tspan>
-<tspan fill="#5a6060" font-weight="700">?</tspan>
-<tspan fill="#2a2818"> {</tspan>
+<tspan x="74.72" fill="#9a7820" font-weight="700">m</tspan>
+<tspan x="83.4" fill="#9a7820" font-weight="700">a</tspan>
+<tspan x="92.08" fill="#9a7820" font-weight="700">t</tspan>
+<tspan x="100.76" fill="#9a7820" font-weight="700">c</tspan>
+<tspan x="109.44" fill="#9a7820" font-weight="700">h</tspan>
+<tspan x="126.8" fill="#2a2818">s</tspan>
+<tspan x="135.48" fill="#2a2818">c</tspan>
+<tspan x="144.16" fill="#2a2818">h</tspan>
+<tspan x="152.84" fill="#2a2818">e</tspan>
+<tspan x="161.52" fill="#2a2818">m</tspan>
+<tspan x="170.2" fill="#2a2818">a</tspan>
+<tspan x="178.88" fill="#2a2818">.</tspan>
+<tspan x="187.56" fill="#2a2818">g</tspan>
+<tspan x="196.24" fill="#2a2818">e</tspan>
+<tspan x="204.92" fill="#2a2818">t</tspan>
+<tspan x="213.6" fill="#2a2818">_</tspan>
+<tspan x="222.28" fill="#2a2818">a</tspan>
+<tspan x="230.96" fill="#2a2818">s</tspan>
+<tspan x="239.64" fill="#2a2818">(</tspan>
+<tspan x="248.32" fill="#2a2818">s</tspan>
+<tspan x="257" fill="#2a2818">c</tspan>
+<tspan x="265.68" fill="#2a2818">h</tspan>
+<tspan x="274.36" fill="#2a2818">e</tspan>
+<tspan x="283.04" fill="#2a2818">m</tspan>
+<tspan x="291.72" fill="#2a2818">a</tspan>
+<tspan x="300.4" fill="#2a2818">_</tspan>
+<tspan x="309.08" fill="#2a2818">k</tspan>
+<tspan x="317.76" fill="#2a2818">e</tspan>
+<tspan x="326.44" fill="#2a2818">y</tspan>
+<tspan x="335.12" fill="#2a2818">)</tspan>
+<tspan x="343.8" fill="#5a6060" font-weight="700">?</tspan>
+<tspan x="361.16" fill="#2a2818">{</tspan>
 </text>
 <text x="28" y="260" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">11</text>
 <text x="40" y="260" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">        </tspan>
-<tspan fill="#5a6060" font-weight="700">Some</tspan>
-<tspan fill="#2a2818">(v) =&gt; </tspan>
-<tspan fill="#5a6060" font-weight="700">Ok</tspan>
-<tspan fill="#2a2818">(</tspan>
-<tspan fill="#5a6060" font-weight="700">Some</tspan>
-<tspan fill="#2a2818">(v)),</tspan>
+<tspan x="109.44" fill="#5a6060" font-weight="700">S</tspan>
+<tspan x="118.12" fill="#5a6060" font-weight="700">o</tspan>
+<tspan x="126.8" fill="#5a6060" font-weight="700">m</tspan>
+<tspan x="135.48" fill="#5a6060" font-weight="700">e</tspan>
+<tspan x="144.16" fill="#2a2818">(</tspan>
+<tspan x="152.84" fill="#2a2818">v</tspan>
+<tspan x="161.52" fill="#2a2818">)</tspan>
+<tspan x="178.88" fill="#2a2818">=</tspan>
+<tspan x="187.56" fill="#2a2818">&gt;</tspan>
+<tspan x="204.92" fill="#5a6060" font-weight="700">O</tspan>
+<tspan x="213.6" fill="#5a6060" font-weight="700">k</tspan>
+<tspan x="222.28" fill="#2a2818">(</tspan>
+<tspan x="230.96" fill="#5a6060" font-weight="700">S</tspan>
+<tspan x="239.64" fill="#5a6060" font-weight="700">o</tspan>
+<tspan x="248.32" fill="#5a6060" font-weight="700">m</tspan>
+<tspan x="257" fill="#5a6060" font-weight="700">e</tspan>
+<tspan x="265.68" fill="#2a2818">(</tspan>
+<tspan x="274.36" fill="#2a2818">v</tspan>
+<tspan x="283.04" fill="#2a2818">)</tspan>
+<tspan x="291.72" fill="#2a2818">)</tspan>
+<tspan x="300.4" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="280" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">12</text>
 <text x="40" y="280" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">        </tspan>
-<tspan fill="#5a6060" font-weight="700">None</tspan>
-<tspan fill="#2a2818"> =&gt; </tspan>
-<tspan fill="#9a7820" font-weight="700">match</tspan>
-<tspan fill="#2a2818"> config {</tspan>
+<tspan x="109.44" fill="#5a6060" font-weight="700">N</tspan>
+<tspan x="118.12" fill="#5a6060" font-weight="700">o</tspan>
+<tspan x="126.8" fill="#5a6060" font-weight="700">n</tspan>
+<tspan x="135.48" fill="#5a6060" font-weight="700">e</tspan>
+<tspan x="152.84" fill="#2a2818">=</tspan>
+<tspan x="161.52" fill="#2a2818">&gt;</tspan>
+<tspan x="178.88" fill="#9a7820" font-weight="700">m</tspan>
+<tspan x="187.56" fill="#9a7820" font-weight="700">a</tspan>
+<tspan x="196.24" fill="#9a7820" font-weight="700">t</tspan>
+<tspan x="204.92" fill="#9a7820" font-weight="700">c</tspan>
+<tspan x="213.6" fill="#9a7820" font-weight="700">h</tspan>
+<tspan x="230.96" fill="#2a2818">c</tspan>
+<tspan x="239.64" fill="#2a2818">o</tspan>
+<tspan x="248.32" fill="#2a2818">n</tspan>
+<tspan x="257" fill="#2a2818">f</tspan>
+<tspan x="265.68" fill="#2a2818">i</tspan>
+<tspan x="274.36" fill="#2a2818">g</tspan>
+<tspan x="291.72" fill="#2a2818">{</tspan>
 </text>
 <text x="28" y="300" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">13</text>
 <text x="40" y="300" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">            </tspan>
-<tspan fill="#5a6060" font-weight="700">Some</tspan>
-<tspan fill="#2a2818">(config) =&gt; config.get_as(config_key),</tspan>
+<tspan x="144.16" fill="#5a6060" font-weight="700">S</tspan>
+<tspan x="152.84" fill="#5a6060" font-weight="700">o</tspan>
+<tspan x="161.52" fill="#5a6060" font-weight="700">m</tspan>
+<tspan x="170.2" fill="#5a6060" font-weight="700">e</tspan>
+<tspan x="178.88" fill="#2a2818">(</tspan>
+<tspan x="187.56" fill="#2a2818">c</tspan>
+<tspan x="196.24" fill="#2a2818">o</tspan>
+<tspan x="204.92" fill="#2a2818">n</tspan>
+<tspan x="213.6" fill="#2a2818">f</tspan>
+<tspan x="222.28" fill="#2a2818">i</tspan>
+<tspan x="230.96" fill="#2a2818">g</tspan>
+<tspan x="239.64" fill="#2a2818">)</tspan>
+<tspan x="257" fill="#2a2818">=</tspan>
+<tspan x="265.68" fill="#2a2818">&gt;</tspan>
+<tspan x="283.04" fill="#2a2818">c</tspan>
+<tspan x="291.72" fill="#2a2818">o</tspan>
+<tspan x="300.4" fill="#2a2818">n</tspan>
+<tspan x="309.08" fill="#2a2818">f</tspan>
+<tspan x="317.76" fill="#2a2818">i</tspan>
+<tspan x="326.44" fill="#2a2818">g</tspan>
+<tspan x="335.12" fill="#2a2818">.</tspan>
+<tspan x="343.8" fill="#2a2818">g</tspan>
+<tspan x="352.48" fill="#2a2818">e</tspan>
+<tspan x="361.16" fill="#2a2818">t</tspan>
+<tspan x="369.84" fill="#2a2818">_</tspan>
+<tspan x="378.52" fill="#2a2818">a</tspan>
+<tspan x="387.2" fill="#2a2818">s</tspan>
+<tspan x="395.88" fill="#2a2818">(</tspan>
+<tspan x="404.56" fill="#2a2818">c</tspan>
+<tspan x="413.24" fill="#2a2818">o</tspan>
+<tspan x="421.92" fill="#2a2818">n</tspan>
+<tspan x="430.6" fill="#2a2818">f</tspan>
+<tspan x="439.28" fill="#2a2818">i</tspan>
+<tspan x="447.96" fill="#2a2818">g</tspan>
+<tspan x="456.64" fill="#2a2818">_</tspan>
+<tspan x="465.32" fill="#2a2818">k</tspan>
+<tspan x="474" fill="#2a2818">e</tspan>
+<tspan x="482.68" fill="#2a2818">y</tspan>
+<tspan x="491.36" fill="#2a2818">)</tspan>
+<tspan x="500.04" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="320" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">14</text>
 <text x="40" y="320" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">            </tspan>
-<tspan fill="#5a6060" font-weight="700">None</tspan>
-<tspan fill="#2a2818"> =&gt; </tspan>
-<tspan fill="#5a6060" font-weight="700">Ok</tspan>
-<tspan fill="#2a2818">(</tspan>
-<tspan fill="#5a6060" font-weight="700">None</tspan>
-<tspan fill="#2a2818">),</tspan>
+<tspan x="144.16" fill="#5a6060" font-weight="700">N</tspan>
+<tspan x="152.84" fill="#5a6060" font-weight="700">o</tspan>
+<tspan x="161.52" fill="#5a6060" font-weight="700">n</tspan>
+<tspan x="170.2" fill="#5a6060" font-weight="700">e</tspan>
+<tspan x="187.56" fill="#2a2818">=</tspan>
+<tspan x="196.24" fill="#2a2818">&gt;</tspan>
+<tspan x="213.6" fill="#5a6060" font-weight="700">O</tspan>
+<tspan x="222.28" fill="#5a6060" font-weight="700">k</tspan>
+<tspan x="230.96" fill="#2a2818">(</tspan>
+<tspan x="239.64" fill="#5a6060" font-weight="700">N</tspan>
+<tspan x="248.32" fill="#5a6060" font-weight="700">o</tspan>
+<tspan x="257" fill="#5a6060" font-weight="700">n</tspan>
+<tspan x="265.68" fill="#5a6060" font-weight="700">e</tspan>
+<tspan x="274.36" fill="#2a2818">)</tspan>
+<tspan x="283.04" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="340" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">15</text>
 <text x="40" y="340" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">        },</tspan>
+<tspan x="109.44" fill="#2a2818">}</tspan>
+<tspan x="118.12" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="360" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">16</text>
 <text x="40" y="360" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    }</tspan>
+<tspan x="74.72" fill="#2a2818">}</tspan>
 </text>
 <text x="28" y="380" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">17</text>
 <text x="40" y="380" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">}</tspan>
+<tspan x="40" fill="#2a2818">}</tspan>
 </text>
 <text x="28" y="400" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">18</text>
 <text x="40" y="400" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 </text>
 <text x="28" y="420" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">19</text>
 <text x="40" y="420" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#9a7820" font-weight="700">pub</tspan>
-<tspan fill="#2a2818"> </tspan>
-<tspan fill="#9a7820" font-weight="700">fn</tspan>
-<tspan fill="#2a2818"> schema_or_config_same&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
-<tspan fill="#2a2818">, T&gt;(</tspan>
+<tspan x="40" fill="#9a7820" font-weight="700">p</tspan>
+<tspan x="48.68" fill="#9a7820" font-weight="700">u</tspan>
+<tspan x="57.36" fill="#9a7820" font-weight="700">b</tspan>
+<tspan x="74.72" fill="#9a7820" font-weight="700">f</tspan>
+<tspan x="83.4" fill="#9a7820" font-weight="700">n</tspan>
+<tspan x="100.76" fill="#2a2818">s</tspan>
+<tspan x="109.44" fill="#2a2818">c</tspan>
+<tspan x="118.12" fill="#2a2818">h</tspan>
+<tspan x="126.8" fill="#2a2818">e</tspan>
+<tspan x="135.48" fill="#2a2818">m</tspan>
+<tspan x="144.16" fill="#2a2818">a</tspan>
+<tspan x="152.84" fill="#2a2818">_</tspan>
+<tspan x="161.52" fill="#2a2818">o</tspan>
+<tspan x="170.2" fill="#2a2818">r</tspan>
+<tspan x="178.88" fill="#2a2818">_</tspan>
+<tspan x="187.56" fill="#2a2818">c</tspan>
+<tspan x="196.24" fill="#2a2818">o</tspan>
+<tspan x="204.92" fill="#2a2818">n</tspan>
+<tspan x="213.6" fill="#2a2818">f</tspan>
+<tspan x="222.28" fill="#2a2818">i</tspan>
+<tspan x="230.96" fill="#2a2818">g</tspan>
+<tspan x="239.64" fill="#2a2818">_</tspan>
+<tspan x="248.32" fill="#2a2818">s</tspan>
+<tspan x="257" fill="#2a2818">a</tspan>
+<tspan x="265.68" fill="#2a2818">m</tspan>
+<tspan x="274.36" fill="#2a2818">e</tspan>
+<tspan x="283.04" fill="#2a2818">&lt;</tspan>
+<tspan x="291.72" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="300.4" fill="#5a6060" font-weight="700">p</tspan>
+<tspan x="309.08" fill="#5a6060" font-weight="700">y</tspan>
+<tspan x="317.76" fill="#2a2818">,</tspan>
+<tspan x="335.12" fill="#2a2818">T</tspan>
+<tspan x="343.8" fill="#2a2818">&gt;</tspan>
+<tspan x="352.48" fill="#2a2818">(</tspan>
 </text>
 <text x="28" y="440" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">20</text>
 <text x="40" y="440" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    schema: </tspan>
-<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
-<tspan fill="#2a2818">Bound&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
-<tspan fill="#2a2818">, PyDict&gt;,</tspan>
+<tspan x="74.72" fill="#2a2818">s</tspan>
+<tspan x="83.4" fill="#2a2818">c</tspan>
+<tspan x="92.08" fill="#2a2818">h</tspan>
+<tspan x="100.76" fill="#2a2818">e</tspan>
+<tspan x="109.44" fill="#2a2818">m</tspan>
+<tspan x="118.12" fill="#2a2818">a</tspan>
+<tspan x="126.8" fill="#2a2818">:</tspan>
+<tspan x="144.16" fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan x="152.84" fill="#2a2818">B</tspan>
+<tspan x="161.52" fill="#2a2818">o</tspan>
+<tspan x="170.2" fill="#2a2818">u</tspan>
+<tspan x="178.88" fill="#2a2818">n</tspan>
+<tspan x="187.56" fill="#2a2818">d</tspan>
+<tspan x="196.24" fill="#2a2818">&lt;</tspan>
+<tspan x="204.92" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="213.6" fill="#5a6060" font-weight="700">p</tspan>
+<tspan x="222.28" fill="#5a6060" font-weight="700">y</tspan>
+<tspan x="230.96" fill="#2a2818">,</tspan>
+<tspan x="248.32" fill="#2a2818">P</tspan>
+<tspan x="257" fill="#2a2818">y</tspan>
+<tspan x="265.68" fill="#2a2818">D</tspan>
+<tspan x="274.36" fill="#2a2818">i</tspan>
+<tspan x="283.04" fill="#2a2818">c</tspan>
+<tspan x="291.72" fill="#2a2818">t</tspan>
+<tspan x="300.4" fill="#2a2818">&gt;</tspan>
+<tspan x="309.08" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="460" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">21</text>
 <text x="40" y="460" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    config: </tspan>
-<tspan fill="#5a6060">Option</tspan>
-<tspan fill="#2a2818">&lt;</tspan>
-<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
-<tspan fill="#2a2818">Bound&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
-<tspan fill="#2a2818">, PyDict&gt;&gt;,</tspan>
+<tspan x="74.72" fill="#2a2818">c</tspan>
+<tspan x="83.4" fill="#2a2818">o</tspan>
+<tspan x="92.08" fill="#2a2818">n</tspan>
+<tspan x="100.76" fill="#2a2818">f</tspan>
+<tspan x="109.44" fill="#2a2818">i</tspan>
+<tspan x="118.12" fill="#2a2818">g</tspan>
+<tspan x="126.8" fill="#2a2818">:</tspan>
+<tspan x="144.16" fill="#5a6060">O</tspan>
+<tspan x="152.84" fill="#5a6060">p</tspan>
+<tspan x="161.52" fill="#5a6060">t</tspan>
+<tspan x="170.2" fill="#5a6060">i</tspan>
+<tspan x="178.88" fill="#5a6060">o</tspan>
+<tspan x="187.56" fill="#5a6060">n</tspan>
+<tspan x="196.24" fill="#2a2818">&lt;</tspan>
+<tspan x="204.92" fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan x="213.6" fill="#2a2818">B</tspan>
+<tspan x="222.28" fill="#2a2818">o</tspan>
+<tspan x="230.96" fill="#2a2818">u</tspan>
+<tspan x="239.64" fill="#2a2818">n</tspan>
+<tspan x="248.32" fill="#2a2818">d</tspan>
+<tspan x="257" fill="#2a2818">&lt;</tspan>
+<tspan x="265.68" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="274.36" fill="#5a6060" font-weight="700">p</tspan>
+<tspan x="283.04" fill="#5a6060" font-weight="700">y</tspan>
+<tspan x="291.72" fill="#2a2818">,</tspan>
+<tspan x="309.08" fill="#2a2818">P</tspan>
+<tspan x="317.76" fill="#2a2818">y</tspan>
+<tspan x="326.44" fill="#2a2818">D</tspan>
+<tspan x="335.12" fill="#2a2818">i</tspan>
+<tspan x="343.8" fill="#2a2818">c</tspan>
+<tspan x="352.48" fill="#2a2818">t</tspan>
+<tspan x="361.16" fill="#2a2818">&gt;</tspan>
+<tspan x="369.84" fill="#2a2818">&gt;</tspan>
+<tspan x="378.52" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="480" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">22</text>
 <text x="40" y="480" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    key: </tspan>
-<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
-<tspan fill="#2a2818">Bound&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
-<tspan fill="#2a2818">, PyString&gt;,</tspan>
+<tspan x="74.72" fill="#2a2818">k</tspan>
+<tspan x="83.4" fill="#2a2818">e</tspan>
+<tspan x="92.08" fill="#2a2818">y</tspan>
+<tspan x="100.76" fill="#2a2818">:</tspan>
+<tspan x="118.12" fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan x="126.8" fill="#2a2818">B</tspan>
+<tspan x="135.48" fill="#2a2818">o</tspan>
+<tspan x="144.16" fill="#2a2818">u</tspan>
+<tspan x="152.84" fill="#2a2818">n</tspan>
+<tspan x="161.52" fill="#2a2818">d</tspan>
+<tspan x="170.2" fill="#2a2818">&lt;</tspan>
+<tspan x="178.88" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="187.56" fill="#5a6060" font-weight="700">p</tspan>
+<tspan x="196.24" fill="#5a6060" font-weight="700">y</tspan>
+<tspan x="204.92" fill="#2a2818">,</tspan>
+<tspan x="222.28" fill="#2a2818">P</tspan>
+<tspan x="230.96" fill="#2a2818">y</tspan>
+<tspan x="239.64" fill="#2a2818">S</tspan>
+<tspan x="248.32" fill="#2a2818">t</tspan>
+<tspan x="257" fill="#2a2818">r</tspan>
+<tspan x="265.68" fill="#2a2818">i</tspan>
+<tspan x="274.36" fill="#2a2818">n</tspan>
+<tspan x="283.04" fill="#2a2818">g</tspan>
+<tspan x="291.72" fill="#2a2818">&gt;</tspan>
+<tspan x="300.4" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="500" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">23</text>
 <text x="40" y="500" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">) -&gt; PyResult&lt;</tspan>
-<tspan fill="#5a6060">Option</tspan>
-<tspan fill="#2a2818">&lt;T&gt;&gt;</tspan>
+<tspan x="40" fill="#2a2818">)</tspan>
+<tspan x="57.36" fill="#2a2818">-</tspan>
+<tspan x="66.04" fill="#2a2818">&gt;</tspan>
+<tspan x="83.4" fill="#2a2818">P</tspan>
+<tspan x="92.08" fill="#2a2818">y</tspan>
+<tspan x="100.76" fill="#2a2818">R</tspan>
+<tspan x="109.44" fill="#2a2818">e</tspan>
+<tspan x="118.12" fill="#2a2818">s</tspan>
+<tspan x="126.8" fill="#2a2818">u</tspan>
+<tspan x="135.48" fill="#2a2818">l</tspan>
+<tspan x="144.16" fill="#2a2818">t</tspan>
+<tspan x="152.84" fill="#2a2818">&lt;</tspan>
+<tspan x="161.52" fill="#5a6060">O</tspan>
+<tspan x="170.2" fill="#5a6060">p</tspan>
+<tspan x="178.88" fill="#5a6060">t</tspan>
+<tspan x="187.56" fill="#5a6060">i</tspan>
+<tspan x="196.24" fill="#5a6060">o</tspan>
+<tspan x="204.92" fill="#5a6060">n</tspan>
+<tspan x="213.6" fill="#2a2818">&lt;</tspan>
+<tspan x="222.28" fill="#2a2818">T</tspan>
+<tspan x="230.96" fill="#2a2818">&gt;</tspan>
+<tspan x="239.64" fill="#2a2818">&gt;</tspan>
 </text>
 <text x="28" y="520" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">24</text>
 <text x="40" y="520" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#9a7820" font-weight="700">where</tspan>
+<tspan x="40" fill="#9a7820" font-weight="700">w</tspan>
+<tspan x="48.68" fill="#9a7820" font-weight="700">h</tspan>
+<tspan x="57.36" fill="#9a7820" font-weight="700">e</tspan>
+<tspan x="66.04" fill="#9a7820" font-weight="700">r</tspan>
+<tspan x="74.72" fill="#9a7820" font-weight="700">e</tspan>
 </text>
 <text x="28" y="540" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">25</text>
 <text x="40" y="540" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    T: FromPyObject&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
-<tspan fill="#2a2818">&gt;,</tspan>
+<tspan x="74.72" fill="#2a2818">T</tspan>
+<tspan x="83.4" fill="#2a2818">:</tspan>
+<tspan x="100.76" fill="#2a2818">F</tspan>
+<tspan x="109.44" fill="#2a2818">r</tspan>
+<tspan x="118.12" fill="#2a2818">o</tspan>
+<tspan x="126.8" fill="#2a2818">m</tspan>
+<tspan x="135.48" fill="#2a2818">P</tspan>
+<tspan x="144.16" fill="#2a2818">y</tspan>
+<tspan x="152.84" fill="#2a2818">O</tspan>
+<tspan x="161.52" fill="#2a2818">b</tspan>
+<tspan x="170.2" fill="#2a2818">j</tspan>
+<tspan x="178.88" fill="#2a2818">e</tspan>
+<tspan x="187.56" fill="#2a2818">c</tspan>
+<tspan x="196.24" fill="#2a2818">t</tspan>
+<tspan x="204.92" fill="#2a2818">&lt;</tspan>
+<tspan x="213.6" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="222.28" fill="#5a6060" font-weight="700">p</tspan>
+<tspan x="230.96" fill="#5a6060" font-weight="700">y</tspan>
+<tspan x="239.64" fill="#2a2818">&gt;</tspan>
+<tspan x="248.32" fill="#2a2818">,</tspan>
 </text>
 <text x="28" y="560" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">26</text>
 <text x="40" y="560" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">{</tspan>
+<tspan x="40" fill="#2a2818">{</tspan>
 </text>
 <text x="28" y="580" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">27</text>
 <text x="40" y="580" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    schema_or_config(schema, config, key, key)</tspan>
+<tspan x="74.72" fill="#2a2818">s</tspan>
+<tspan x="83.4" fill="#2a2818">c</tspan>
+<tspan x="92.08" fill="#2a2818">h</tspan>
+<tspan x="100.76" fill="#2a2818">e</tspan>
+<tspan x="109.44" fill="#2a2818">m</tspan>
+<tspan x="118.12" fill="#2a2818">a</tspan>
+<tspan x="126.8" fill="#2a2818">_</tspan>
+<tspan x="135.48" fill="#2a2818">o</tspan>
+<tspan x="144.16" fill="#2a2818">r</tspan>
+<tspan x="152.84" fill="#2a2818">_</tspan>
+<tspan x="161.52" fill="#2a2818">c</tspan>
+<tspan x="170.2" fill="#2a2818">o</tspan>
+<tspan x="178.88" fill="#2a2818">n</tspan>
+<tspan x="187.56" fill="#2a2818">f</tspan>
+<tspan x="196.24" fill="#2a2818">i</tspan>
+<tspan x="204.92" fill="#2a2818">g</tspan>
+<tspan x="213.6" fill="#2a2818">(</tspan>
+<tspan x="222.28" fill="#2a2818">s</tspan>
+<tspan x="230.96" fill="#2a2818">c</tspan>
+<tspan x="239.64" fill="#2a2818">h</tspan>
+<tspan x="248.32" fill="#2a2818">e</tspan>
+<tspan x="257" fill="#2a2818">m</tspan>
+<tspan x="265.68" fill="#2a2818">a</tspan>
+<tspan x="274.36" fill="#2a2818">,</tspan>
+<tspan x="291.72" fill="#2a2818">c</tspan>
+<tspan x="300.4" fill="#2a2818">o</tspan>
+<tspan x="309.08" fill="#2a2818">n</tspan>
+<tspan x="317.76" fill="#2a2818">f</tspan>
+<tspan x="326.44" fill="#2a2818">i</tspan>
+<tspan x="335.12" fill="#2a2818">g</tspan>
+<tspan x="343.8" fill="#2a2818">,</tspan>
+<tspan x="361.16" fill="#2a2818">k</tspan>
+<tspan x="369.84" fill="#2a2818">e</tspan>
+<tspan x="378.52" fill="#2a2818">y</tspan>
+<tspan x="387.2" fill="#2a2818">,</tspan>
+<tspan x="404.56" fill="#2a2818">k</tspan>
+<tspan x="413.24" fill="#2a2818">e</tspan>
+<tspan x="421.92" fill="#2a2818">y</tspan>
+<tspan x="430.6" fill="#2a2818">)</tspan>
 </text>
 <text x="28" y="600" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">28</text>
 <text x="40" y="600" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">}</tspan>
+<tspan x="40" fill="#2a2818">}</tspan>
 </text>
 <text x="28" y="620" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">29</text>
 <text x="40" y="620" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 </text>
 <text x="28" y="640" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">30</text>
 <text x="40" y="640" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#9a7820" font-weight="700">pub</tspan>
-<tspan fill="#2a2818"> </tspan>
-<tspan fill="#9a7820" font-weight="700">fn</tspan>
-<tspan fill="#2a2818"> is_strict(schema: </tspan>
-<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
-<tspan fill="#2a2818">Bound&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;_</tspan>
-<tspan fill="#2a2818">, PyDict&gt;, config: </tspan>
-<tspan fill="#5a6060">Option</tspan>
-<tspan fill="#2a2818">&lt;</tspan>
-<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
-<tspan fill="#2a2818">Bound&lt;</tspan>
-<tspan fill="#5a6060" font-weight="700">&apos;_</tspan>
-<tspan fill="#2a2818">, PyDict&gt;&gt;) -&gt;</tspan>
+<tspan x="40" fill="#9a7820" font-weight="700">p</tspan>
+<tspan x="48.68" fill="#9a7820" font-weight="700">u</tspan>
+<tspan x="57.36" fill="#9a7820" font-weight="700">b</tspan>
+<tspan x="74.72" fill="#9a7820" font-weight="700">f</tspan>
+<tspan x="83.4" fill="#9a7820" font-weight="700">n</tspan>
+<tspan x="100.76" fill="#2a2818">i</tspan>
+<tspan x="109.44" fill="#2a2818">s</tspan>
+<tspan x="118.12" fill="#2a2818">_</tspan>
+<tspan x="126.8" fill="#2a2818">s</tspan>
+<tspan x="135.48" fill="#2a2818">t</tspan>
+<tspan x="144.16" fill="#2a2818">r</tspan>
+<tspan x="152.84" fill="#2a2818">i</tspan>
+<tspan x="161.52" fill="#2a2818">c</tspan>
+<tspan x="170.2" fill="#2a2818">t</tspan>
+<tspan x="178.88" fill="#2a2818">(</tspan>
+<tspan x="187.56" fill="#2a2818">s</tspan>
+<tspan x="196.24" fill="#2a2818">c</tspan>
+<tspan x="204.92" fill="#2a2818">h</tspan>
+<tspan x="213.6" fill="#2a2818">e</tspan>
+<tspan x="222.28" fill="#2a2818">m</tspan>
+<tspan x="230.96" fill="#2a2818">a</tspan>
+<tspan x="239.64" fill="#2a2818">:</tspan>
+<tspan x="257" fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan x="265.68" fill="#2a2818">B</tspan>
+<tspan x="274.36" fill="#2a2818">o</tspan>
+<tspan x="283.04" fill="#2a2818">u</tspan>
+<tspan x="291.72" fill="#2a2818">n</tspan>
+<tspan x="300.4" fill="#2a2818">d</tspan>
+<tspan x="309.08" fill="#2a2818">&lt;</tspan>
+<tspan x="317.76" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="326.44" fill="#5a6060" font-weight="700">_</tspan>
+<tspan x="335.12" fill="#2a2818">,</tspan>
+<tspan x="352.48" fill="#2a2818">P</tspan>
+<tspan x="361.16" fill="#2a2818">y</tspan>
+<tspan x="369.84" fill="#2a2818">D</tspan>
+<tspan x="378.52" fill="#2a2818">i</tspan>
+<tspan x="387.2" fill="#2a2818">c</tspan>
+<tspan x="395.88" fill="#2a2818">t</tspan>
+<tspan x="404.56" fill="#2a2818">&gt;</tspan>
+<tspan x="413.24" fill="#2a2818">,</tspan>
+<tspan x="430.6" fill="#2a2818">c</tspan>
+<tspan x="439.28" fill="#2a2818">o</tspan>
+<tspan x="447.96" fill="#2a2818">n</tspan>
+<tspan x="456.64" fill="#2a2818">f</tspan>
+<tspan x="465.32" fill="#2a2818">i</tspan>
+<tspan x="474" fill="#2a2818">g</tspan>
+<tspan x="482.68" fill="#2a2818">:</tspan>
+<tspan x="500.04" fill="#5a6060">O</tspan>
+<tspan x="508.72" fill="#5a6060">p</tspan>
+<tspan x="517.4" fill="#5a6060">t</tspan>
+<tspan x="526.08" fill="#5a6060">i</tspan>
+<tspan x="534.76" fill="#5a6060">o</tspan>
+<tspan x="543.44" fill="#5a6060">n</tspan>
+<tspan x="552.12" fill="#2a2818">&lt;</tspan>
+<tspan x="560.8" fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan x="569.48" fill="#2a2818">B</tspan>
+<tspan x="578.16" fill="#2a2818">o</tspan>
+<tspan x="586.84" fill="#2a2818">u</tspan>
+<tspan x="595.52" fill="#2a2818">n</tspan>
+<tspan x="604.2" fill="#2a2818">d</tspan>
+<tspan x="612.88" fill="#2a2818">&lt;</tspan>
+<tspan x="621.56" fill="#5a6060" font-weight="700">&apos;</tspan>
+<tspan x="630.24" fill="#5a6060" font-weight="700">_</tspan>
+<tspan x="638.92" fill="#2a2818">,</tspan>
+<tspan x="656.28" fill="#2a2818">P</tspan>
+<tspan x="664.96" fill="#2a2818">y</tspan>
+<tspan x="673.64" fill="#2a2818">D</tspan>
+<tspan x="682.32" fill="#2a2818">i</tspan>
+<tspan x="691" fill="#2a2818">c</tspan>
+<tspan x="699.68" fill="#2a2818">t</tspan>
+<tspan x="708.36" fill="#2a2818">&gt;</tspan>
+<tspan x="717.04" fill="#2a2818">&gt;</tspan>
+<tspan x="725.72" fill="#2a2818">)</tspan>
+<tspan x="743.08" fill="#2a2818">-</tspan>
+<tspan x="751.76" fill="#2a2818">&gt;</tspan>
 </text>
 <text x="40" y="660" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">PyResult&lt;</tspan>
-<tspan fill="#5a6060">bool</tspan>
-<tspan fill="#2a2818">&gt; {</tspan>
+<tspan x="40" fill="#2a2818">P</tspan>
+<tspan x="48.68" fill="#2a2818">y</tspan>
+<tspan x="57.36" fill="#2a2818">R</tspan>
+<tspan x="66.04" fill="#2a2818">e</tspan>
+<tspan x="74.72" fill="#2a2818">s</tspan>
+<tspan x="83.4" fill="#2a2818">u</tspan>
+<tspan x="92.08" fill="#2a2818">l</tspan>
+<tspan x="100.76" fill="#2a2818">t</tspan>
+<tspan x="109.44" fill="#2a2818">&lt;</tspan>
+<tspan x="118.12" fill="#5a6060">b</tspan>
+<tspan x="126.8" fill="#5a6060">o</tspan>
+<tspan x="135.48" fill="#5a6060">o</tspan>
+<tspan x="144.16" fill="#5a6060">l</tspan>
+<tspan x="152.84" fill="#2a2818">&gt;</tspan>
+<tspan x="170.2" fill="#2a2818">{</tspan>
 </text>
 <text x="28" y="680" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">31</text>
 <text x="40" y="680" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    </tspan>
-<tspan fill="#9a7820" font-weight="700">let</tspan>
-<tspan fill="#2a2818"> py = schema.py();</tspan>
+<tspan x="74.72" fill="#9a7820" font-weight="700">l</tspan>
+<tspan x="83.4" fill="#9a7820" font-weight="700">e</tspan>
+<tspan x="92.08" fill="#9a7820" font-weight="700">t</tspan>
+<tspan x="109.44" fill="#2a2818">p</tspan>
+<tspan x="118.12" fill="#2a2818">y</tspan>
+<tspan x="135.48" fill="#2a2818">=</tspan>
+<tspan x="152.84" fill="#2a2818">s</tspan>
+<tspan x="161.52" fill="#2a2818">c</tspan>
+<tspan x="170.2" fill="#2a2818">h</tspan>
+<tspan x="178.88" fill="#2a2818">e</tspan>
+<tspan x="187.56" fill="#2a2818">m</tspan>
+<tspan x="196.24" fill="#2a2818">a</tspan>
+<tspan x="204.92" fill="#2a2818">.</tspan>
+<tspan x="213.6" fill="#2a2818">p</tspan>
+<tspan x="222.28" fill="#2a2818">y</tspan>
+<tspan x="230.96" fill="#2a2818">(</tspan>
+<tspan x="239.64" fill="#2a2818">)</tspan>
+<tspan x="248.32" fill="#2a2818">;</tspan>
 </text>
 <text x="28" y="700" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">32</text>
 <text x="40" y="700" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">    </tspan>
-<tspan fill="#5a6060" font-weight="700">Ok</tspan>
-<tspan fill="#2a2818">(schema_or_config_same(schema, config, </tspan>
-<tspan fill="#9a7820" font-weight="700">intern!</tspan>
-<tspan fill="#2a2818">(py, </tspan>
-<tspan fill="#3a6820">&quot;strict&quot;</tspan>
-<tspan fill="#2a2818">))</tspan>
-<tspan fill="#5a6060" font-weight="700">?</tspan>
-<tspan fill="#2a2818">.unwrap_or(</tspan>
-<tspan fill="#5a6060" font-weight="700">false</tspan>
-<tspan fill="#2a2818">))</tspan>
+<tspan x="74.72" fill="#5a6060" font-weight="700">O</tspan>
+<tspan x="83.4" fill="#5a6060" font-weight="700">k</tspan>
+<tspan x="92.08" fill="#2a2818">(</tspan>
+<tspan x="100.76" fill="#2a2818">s</tspan>
+<tspan x="109.44" fill="#2a2818">c</tspan>
+<tspan x="118.12" fill="#2a2818">h</tspan>
+<tspan x="126.8" fill="#2a2818">e</tspan>
+<tspan x="135.48" fill="#2a2818">m</tspan>
+<tspan x="144.16" fill="#2a2818">a</tspan>
+<tspan x="152.84" fill="#2a2818">_</tspan>
+<tspan x="161.52" fill="#2a2818">o</tspan>
+<tspan x="170.2" fill="#2a2818">r</tspan>
+<tspan x="178.88" fill="#2a2818">_</tspan>
+<tspan x="187.56" fill="#2a2818">c</tspan>
+<tspan x="196.24" fill="#2a2818">o</tspan>
+<tspan x="204.92" fill="#2a2818">n</tspan>
+<tspan x="213.6" fill="#2a2818">f</tspan>
+<tspan x="222.28" fill="#2a2818">i</tspan>
+<tspan x="230.96" fill="#2a2818">g</tspan>
+<tspan x="239.64" fill="#2a2818">_</tspan>
+<tspan x="248.32" fill="#2a2818">s</tspan>
+<tspan x="257" fill="#2a2818">a</tspan>
+<tspan x="265.68" fill="#2a2818">m</tspan>
+<tspan x="274.36" fill="#2a2818">e</tspan>
+<tspan x="283.04" fill="#2a2818">(</tspan>
+<tspan x="291.72" fill="#2a2818">s</tspan>
+<tspan x="300.4" fill="#2a2818">c</tspan>
+<tspan x="309.08" fill="#2a2818">h</tspan>
+<tspan x="317.76" fill="#2a2818">e</tspan>
+<tspan x="326.44" fill="#2a2818">m</tspan>
+<tspan x="335.12" fill="#2a2818">a</tspan>
+<tspan x="343.8" fill="#2a2818">,</tspan>
+<tspan x="361.16" fill="#2a2818">c</tspan>
+<tspan x="369.84" fill="#2a2818">o</tspan>
+<tspan x="378.52" fill="#2a2818">n</tspan>
+<tspan x="387.2" fill="#2a2818">f</tspan>
+<tspan x="395.88" fill="#2a2818">i</tspan>
+<tspan x="404.56" fill="#2a2818">g</tspan>
+<tspan x="413.24" fill="#2a2818">,</tspan>
+<tspan x="430.6" fill="#9a7820" font-weight="700">i</tspan>
+<tspan x="439.28" fill="#9a7820" font-weight="700">n</tspan>
+<tspan x="447.96" fill="#9a7820" font-weight="700">t</tspan>
+<tspan x="456.64" fill="#9a7820" font-weight="700">e</tspan>
+<tspan x="465.32" fill="#9a7820" font-weight="700">r</tspan>
+<tspan x="474" fill="#9a7820" font-weight="700">n</tspan>
+<tspan x="482.68" fill="#9a7820" font-weight="700">!</tspan>
+<tspan x="491.36" fill="#2a2818">(</tspan>
+<tspan x="500.04" fill="#2a2818">p</tspan>
+<tspan x="508.72" fill="#2a2818">y</tspan>
+<tspan x="517.4" fill="#2a2818">,</tspan>
+<tspan x="534.76" fill="#3a6820">&quot;</tspan>
+<tspan x="543.44" fill="#3a6820">s</tspan>
+<tspan x="552.12" fill="#3a6820">t</tspan>
+<tspan x="560.8" fill="#3a6820">r</tspan>
+<tspan x="569.48" fill="#3a6820">i</tspan>
+<tspan x="578.16" fill="#3a6820">c</tspan>
+<tspan x="586.84" fill="#3a6820">t</tspan>
+<tspan x="595.52" fill="#3a6820">&quot;</tspan>
+<tspan x="604.2" fill="#2a2818">)</tspan>
+<tspan x="612.88" fill="#2a2818">)</tspan>
+<tspan x="621.56" fill="#5a6060" font-weight="700">?</tspan>
+<tspan x="630.24" fill="#2a2818">.</tspan>
+<tspan x="638.92" fill="#2a2818">u</tspan>
+<tspan x="647.6" fill="#2a2818">n</tspan>
+<tspan x="656.28" fill="#2a2818">w</tspan>
+<tspan x="664.96" fill="#2a2818">r</tspan>
+<tspan x="673.64" fill="#2a2818">a</tspan>
+<tspan x="682.32" fill="#2a2818">p</tspan>
+<tspan x="691" fill="#2a2818">_</tspan>
+<tspan x="699.68" fill="#2a2818">o</tspan>
+<tspan x="708.36" fill="#2a2818">r</tspan>
+<tspan x="717.04" fill="#2a2818">(</tspan>
+<tspan x="725.72" fill="#5a6060" font-weight="700">f</tspan>
+<tspan x="734.4" fill="#5a6060" font-weight="700">a</tspan>
+<tspan x="743.08" fill="#5a6060" font-weight="700">l</tspan>
+<tspan x="751.76" fill="#5a6060" font-weight="700">s</tspan>
+<tspan x="760.44" fill="#5a6060" font-weight="700">e</tspan>
+<tspan x="769.12" fill="#2a2818">)</tspan>
+<tspan x="777.8" fill="#2a2818">)</tspan>
 </text>
 <text x="28" y="720" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">33</text>
 <text x="40" y="720" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
-<tspan fill="#2a2818">}</tspan>
+<tspan x="40" fill="#2a2818">}</tspan>
 </text>
 <text x="28" y="740" fill="#b6b4ac" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">34</text>
 <text x="40" y="740" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">

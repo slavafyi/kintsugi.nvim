@@ -94,6 +94,7 @@ end
 
 stop_lsp_clients()
 vim.o.termguicolors = true
+vim.o.relativenumber = true
 vim.diagnostic.enable(false)
 vim.fn.mkdir("./outputs", "p")
 

@@ -10,7 +10,6 @@ gen-gallery: ## Generate the gallery of images
 	@mkdir -p ./gallery/outputs
 	@nvim --clean \
 		-c "execute 'set runtimepath^=' . fnameescape(getcwd())" \
-		-c "set termguicolors" \
 		-c "cd ./gallery" \
 		-c "try | execute 'luafile ./generate.lua' | catch | cquit | endtry" \
 		-c "echo ''" \

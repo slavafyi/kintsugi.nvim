@@ -9,13 +9,19 @@ local input = "./inputs/sample.rs"
 local output_dir = "./variants"
 local max_lines = tonumber(vim.env.VARIANT_PREVIEW_MAX_LINES or "34") or 34
 local padding_x = 28
-local padding_y = 54
-local line_height = 22
-local char_width = 9.4
-local font_size = 15
-local gutter_width = 42
+local font_size = 14
+local line_height = math.ceil(font_size * 1.4)
+local title_font_size = 14
+local metadata_font_size = 14
+local gutter_width = 12
 local code_x = padding_x + gutter_width
 local width = 920
+local char_width = font_size * 0.62
+local font_name = "IoskeleyMono Nerd Font"
+local font_family = font_name .. ", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+local title_y = 30
+local code_start_y = math.ceil(title_y + (line_height * 1.5))
+local max_columns = math.max(20, math.floor((width - code_x - padding_x) / char_width))
 
 local function escape_xml(value)
   return value
@@ -90,7 +96,7 @@ local function style_key(style)
   }, ":")
 end
 
-local function line_spans(line_number, text, normal_fg)
+local function range_spans(line_number, text, start_column, end_column, normal_fg)
   local spans = {}
   local current_style = nil
   local current_key = nil
@@ -105,7 +111,7 @@ local function line_spans(line_number, text, normal_fg)
     end
   end
 
-  for column = 1, #text do
+  for column = start_column, end_column do
     local char = text:sub(column, column)
     local style = syntax_style(line_number, column, normal_fg)
     local key = style_key(style)
@@ -122,6 +128,54 @@ local function line_spans(line_number, text, normal_fg)
 
   flush()
   return spans
+end
+
+local function wrapped_line_spans(line_number, text, normal_fg)
+  if text == "" then
+    return { {} }
+  end
+
+  local rows = {}
+  local start_column = 1
+
+  while start_column <= #text do
+    local max_end_column = math.min(#text, start_column + max_columns - 1)
+    local end_column = max_end_column
+    local next_column = max_end_column + 1
+
+    if max_end_column < #text then
+      for column = max_end_column, start_column + 1, -1 do
+        if text:sub(column, column):match("%s") then
+          end_column = column - 1
+          next_column = column + 1
+          break
+        end
+      end
+    end
+
+    table.insert(rows, range_spans(line_number, text, start_column, end_column, normal_fg))
+    start_column = next_column
+  end
+
+  return rows
+end
+
+local function visual_rows(lines, normal_fg)
+  local rows = {}
+
+  for line_number, line in ipairs(lines) do
+    local wrapped = wrapped_line_spans(line_number, line, normal_fg)
+
+    for wrapped_index, spans in ipairs(wrapped) do
+      table.insert(rows, {
+        source_line = line_number,
+        continuation = wrapped_index > 1,
+        spans = spans,
+      })
+    end
+  end
+
+  return rows
 end
 
 local function render_variant(variant)
@@ -142,21 +196,26 @@ local function render_variant(variant)
   local line_nr_fg = hex(line_nr.fg, normal_fg)
   local title_fg = hex(title.fg, normal_fg)
   local muted_fg = hex(comment.fg, line_nr_fg)
-  local height = padding_y + (#lines * line_height) + 28
+  local rows = visual_rows(lines, normal_fg)
+  local height = code_start_y + (#rows * line_height) + 28
   local svg = {
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<svg xmlns="http://www.w3.org/2000/svg" width="' .. width .. '" height="' .. height .. '" viewBox="0 0 ' .. width .. ' ' .. height .. '">',
     '<rect width="100%" height="100%" fill="' .. normal_bg .. '"/>',
-    '<text x="' .. padding_x .. '" y="30" fill="' .. title_fg .. '" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">' .. escape_xml(variant.label) .. '</text>',
-    '<text x="' .. (width - padding_x) .. '" y="30" fill="' .. muted_fg .. '" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" text-anchor="end">sample.rs</text>',
+    '<text x="' .. padding_x .. '" y="' .. title_y .. '" fill="' .. title_fg .. '" font-family="' .. font_family .. '" font-size="' .. title_font_size .. '" font-weight="700">' .. escape_xml(variant.label) .. '</text>',
+    '<text x="' .. (width - padding_x) .. '" y="' .. title_y .. '" fill="' .. muted_fg .. '" font-family="' .. font_family .. '" font-size="' .. metadata_font_size .. '" text-anchor="end">' .. escape_xml("sample.rs · " .. font_name) .. '</text>',
   }
 
-  for index, line in ipairs(lines) do
-    local y = padding_y + ((index - 1) * line_height)
-    table.insert(svg, '<text x="' .. padding_x .. '" y="' .. y .. '" fill="' .. line_nr_fg .. '" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="' .. font_size .. '" text-anchor="end">' .. index .. '</text>')
-    table.insert(svg, '<text x="' .. code_x .. '" y="' .. y .. '" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="' .. font_size .. '" xml:space="preserve">')
+  for row_index, row in ipairs(rows) do
+    local y = code_start_y + ((row_index - 1) * line_height)
 
-    for _, span in ipairs(line_spans(index, line, normal_fg)) do
+    if not row.continuation then
+      table.insert(svg, '<text x="' .. padding_x .. '" y="' .. y .. '" fill="' .. line_nr_fg .. '" font-family="' .. font_family .. '" font-size="' .. font_size .. '" text-anchor="end">' .. row.source_line .. '</text>')
+    end
+
+    table.insert(svg, '<text x="' .. code_x .. '" y="' .. y .. '" font-family="' .. font_family .. '" font-size="' .. font_size .. '" xml:space="preserve">')
+
+    for _, span in ipairs(row.spans) do
       table.insert(svg, '<tspan ' .. span_attributes(span.style) .. '>' .. escape_xml(span.text) .. '</tspan>')
     end
 

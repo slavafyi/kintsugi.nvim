@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="830" viewBox="0 0 920 830">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="788" viewBox="0 0 920 788">
 <rect width="100%" height="100%" fill="#161618"/>
-<text x="28" y="30" fill="#dbad49" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">kintsugi-dark-flared</text>
-<text x="892" y="30" fill="#5f5f5f" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" text-anchor="end">sample.rs</text>
-<text x="28" y="54" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">1</text>
-<text x="70" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="30" fill="#dbad49" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="700">kintsugi-dark-flared</text>
+<text x="892" y="30" fill="#5f5f5f" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">sample.rs · IoskeleyMono Nerd Font</text>
+<text x="28" y="60" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">1</text>
+<text x="40" y="60" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#d66848" font-weight="700">pub</tspan>
 <tspan fill="#bcac8f"> </tspan>
 <tspan fill="#d66848" font-weight="700">fn</tspan>
@@ -16,8 +16,8 @@
 <tspan fill="#e08542">&gt;</tspan>
 <tspan fill="#bcac8f">(</tspan>
 </text>
-<text x="28" y="76" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">2</text>
-<text x="70" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="80" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">2</text>
+<text x="40" y="80" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    schema: </tspan>
 <tspan fill="#dbad49" font-weight="700">&amp;</tspan>
 <tspan fill="#bcac8f">Bound</tspan>
@@ -27,8 +27,8 @@
 <tspan fill="#e08542">&gt;</tspan>
 <tspan fill="#bcac8f">,</tspan>
 </text>
-<text x="28" y="98" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">3</text>
-<text x="70" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="100" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">3</text>
+<text x="40" y="100" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    config: </tspan>
 <tspan fill="#798283">Option</tspan>
 <tspan fill="#e08542">&lt;</tspan>
@@ -40,8 +40,8 @@
 <tspan fill="#e08542">&gt;&gt;</tspan>
 <tspan fill="#bcac8f">,</tspan>
 </text>
-<text x="28" y="120" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">4</text>
-<text x="70" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="120" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">4</text>
+<text x="40" y="120" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    schema_key: </tspan>
 <tspan fill="#dbad49" font-weight="700">&amp;</tspan>
 <tspan fill="#bcac8f">Bound</tspan>
@@ -51,8 +51,8 @@
 <tspan fill="#e08542">&gt;</tspan>
 <tspan fill="#bcac8f">,</tspan>
 </text>
-<text x="28" y="142" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">5</text>
-<text x="70" y="142" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="140" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">5</text>
+<text x="40" y="140" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    config_key: </tspan>
 <tspan fill="#dbad49" font-weight="700">&amp;</tspan>
 <tspan fill="#bcac8f">Bound</tspan>
@@ -62,8 +62,8 @@
 <tspan fill="#e08542">&gt;</tspan>
 <tspan fill="#bcac8f">,</tspan>
 </text>
-<text x="28" y="164" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">6</text>
-<text x="70" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="160" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">6</text>
+<text x="40" y="160" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">) </tspan>
 <tspan fill="#e08542">-&gt;</tspan>
 <tspan fill="#bcac8f"> PyResult</tspan>
@@ -73,24 +73,24 @@
 <tspan fill="#bcac8f">T</tspan>
 <tspan fill="#e08542">&gt;&gt;</tspan>
 </text>
-<text x="28" y="186" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">7</text>
-<text x="70" y="186" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="180" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">7</text>
+<text x="40" y="180" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#d66848" font-weight="700">where</tspan>
 </text>
-<text x="28" y="208" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">8</text>
-<text x="70" y="208" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="200" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">8</text>
+<text x="40" y="200" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    T: FromPyObject</tspan>
 <tspan fill="#e08542">&lt;</tspan>
 <tspan fill="#798283" font-weight="700">&apos;py</tspan>
 <tspan fill="#e08542">&gt;</tspan>
 <tspan fill="#bcac8f">,</tspan>
 </text>
-<text x="28" y="230" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">9</text>
-<text x="70" y="230" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="220" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">9</text>
+<text x="40" y="220" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">{</tspan>
 </text>
-<text x="28" y="252" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">10</text>
-<text x="70" y="252" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="240" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">10</text>
+<text x="40" y="240" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    </tspan>
 <tspan fill="#d66848" font-weight="700">match</tspan>
 <tspan fill="#bcac8f"> schema.</tspan>
@@ -99,8 +99,8 @@
 <tspan fill="#798283" font-weight="700">?</tspan>
 <tspan fill="#bcac8f"> {</tspan>
 </text>
-<text x="28" y="274" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">11</text>
-<text x="70" y="274" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="260" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">11</text>
+<text x="40" y="260" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">        </tspan>
 <tspan fill="#db9833" font-weight="700">Some</tspan>
 <tspan fill="#bcac8f">(v) </tspan>
@@ -111,8 +111,8 @@
 <tspan fill="#db9833" font-weight="700">Some</tspan>
 <tspan fill="#bcac8f">(v)),</tspan>
 </text>
-<text x="28" y="296" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">12</text>
-<text x="70" y="296" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="280" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">12</text>
+<text x="40" y="280" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">        </tspan>
 <tspan fill="#db9833" font-weight="700">None</tspan>
 <tspan fill="#bcac8f"> </tspan>
@@ -121,8 +121,8 @@
 <tspan fill="#d66848" font-weight="700">match</tspan>
 <tspan fill="#bcac8f"> config {</tspan>
 </text>
-<text x="28" y="318" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">13</text>
-<text x="70" y="318" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="300" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">13</text>
+<text x="40" y="300" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">            </tspan>
 <tspan fill="#db9833" font-weight="700">Some</tspan>
 <tspan fill="#bcac8f">(config) </tspan>
@@ -131,8 +131,8 @@
 <tspan fill="#798283">get_as</tspan>
 <tspan fill="#bcac8f">(config_key),</tspan>
 </text>
-<text x="28" y="340" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">14</text>
-<text x="70" y="340" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="320" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">14</text>
+<text x="40" y="320" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">            </tspan>
 <tspan fill="#db9833" font-weight="700">None</tspan>
 <tspan fill="#bcac8f"> </tspan>
@@ -143,23 +143,23 @@
 <tspan fill="#db9833" font-weight="700">None</tspan>
 <tspan fill="#bcac8f">),</tspan>
 </text>
-<text x="28" y="362" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">15</text>
-<text x="70" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="340" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">15</text>
+<text x="40" y="340" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">        },</tspan>
 </text>
-<text x="28" y="384" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">16</text>
-<text x="70" y="384" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="360" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">16</text>
+<text x="40" y="360" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    }</tspan>
 </text>
-<text x="28" y="406" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">17</text>
-<text x="70" y="406" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="380" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">17</text>
+<text x="40" y="380" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">}</tspan>
 </text>
-<text x="28" y="428" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">18</text>
-<text x="70" y="428" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="400" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">18</text>
+<text x="40" y="400" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 </text>
-<text x="28" y="450" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">19</text>
-<text x="70" y="450" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="420" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">19</text>
+<text x="40" y="420" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#d66848" font-weight="700">pub</tspan>
 <tspan fill="#bcac8f"> </tspan>
 <tspan fill="#d66848" font-weight="700">fn</tspan>
@@ -171,8 +171,8 @@
 <tspan fill="#e08542">&gt;</tspan>
 <tspan fill="#bcac8f">(</tspan>
 </text>
-<text x="28" y="472" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">20</text>
-<text x="70" y="472" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="440" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">20</text>
+<text x="40" y="440" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    schema: </tspan>
 <tspan fill="#dbad49" font-weight="700">&amp;</tspan>
 <tspan fill="#bcac8f">Bound</tspan>
@@ -182,8 +182,8 @@
 <tspan fill="#e08542">&gt;</tspan>
 <tspan fill="#bcac8f">,</tspan>
 </text>
-<text x="28" y="494" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">21</text>
-<text x="70" y="494" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="460" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">21</text>
+<text x="40" y="460" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    config: </tspan>
 <tspan fill="#798283">Option</tspan>
 <tspan fill="#e08542">&lt;</tspan>
@@ -195,8 +195,8 @@
 <tspan fill="#e08542">&gt;&gt;</tspan>
 <tspan fill="#bcac8f">,</tspan>
 </text>
-<text x="28" y="516" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">22</text>
-<text x="70" y="516" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="480" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">22</text>
+<text x="40" y="480" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    key: </tspan>
 <tspan fill="#dbad49" font-weight="700">&amp;</tspan>
 <tspan fill="#bcac8f">Bound</tspan>
@@ -206,8 +206,8 @@
 <tspan fill="#e08542">&gt;</tspan>
 <tspan fill="#bcac8f">,</tspan>
 </text>
-<text x="28" y="538" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">23</text>
-<text x="70" y="538" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="500" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">23</text>
+<text x="40" y="500" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">) </tspan>
 <tspan fill="#e08542">-&gt;</tspan>
 <tspan fill="#bcac8f"> PyResult</tspan>
@@ -217,37 +217,37 @@
 <tspan fill="#bcac8f">T</tspan>
 <tspan fill="#e08542">&gt;&gt;</tspan>
 </text>
-<text x="28" y="560" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">24</text>
-<text x="70" y="560" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="520" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">24</text>
+<text x="40" y="520" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#d66848" font-weight="700">where</tspan>
 </text>
-<text x="28" y="582" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">25</text>
-<text x="70" y="582" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="540" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">25</text>
+<text x="40" y="540" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    T: FromPyObject</tspan>
 <tspan fill="#e08542">&lt;</tspan>
 <tspan fill="#798283" font-weight="700">&apos;py</tspan>
 <tspan fill="#e08542">&gt;</tspan>
 <tspan fill="#bcac8f">,</tspan>
 </text>
-<text x="28" y="604" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">26</text>
-<text x="70" y="604" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="560" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">26</text>
+<text x="40" y="560" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">{</tspan>
 </text>
-<text x="28" y="626" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">27</text>
-<text x="70" y="626" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="580" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">27</text>
+<text x="40" y="580" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    </tspan>
 <tspan fill="#798283">schema_or_config</tspan>
 <tspan fill="#bcac8f">(schema, config, key, key)</tspan>
 </text>
-<text x="28" y="648" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">28</text>
-<text x="70" y="648" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="600" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">28</text>
+<text x="40" y="600" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">}</tspan>
 </text>
-<text x="28" y="670" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">29</text>
-<text x="70" y="670" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="620" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">29</text>
+<text x="40" y="620" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 </text>
-<text x="28" y="692" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">30</text>
-<text x="70" y="692" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="640" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">30</text>
+<text x="40" y="640" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#d66848" font-weight="700">pub</tspan>
 <tspan fill="#bcac8f"> </tspan>
 <tspan fill="#d66848" font-weight="700">fn</tspan>
@@ -271,14 +271,16 @@
 <tspan fill="#e08542">&gt;&gt;</tspan>
 <tspan fill="#bcac8f">) </tspan>
 <tspan fill="#e08542">-&gt;</tspan>
-<tspan fill="#bcac8f"> PyResult</tspan>
+</text>
+<text x="40" y="660" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
+<tspan fill="#bcac8f">PyResult</tspan>
 <tspan fill="#e08542">&lt;</tspan>
 <tspan fill="#798283">bool</tspan>
 <tspan fill="#e08542">&gt;</tspan>
 <tspan fill="#bcac8f"> {</tspan>
 </text>
-<text x="28" y="714" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">31</text>
-<text x="70" y="714" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="680" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">31</text>
+<text x="40" y="680" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    </tspan>
 <tspan fill="#d66848" font-weight="700">let</tspan>
 <tspan fill="#bcac8f"> py </tspan>
@@ -287,8 +289,8 @@
 <tspan fill="#798283">py</tspan>
 <tspan fill="#bcac8f">();</tspan>
 </text>
-<text x="28" y="736" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">32</text>
-<text x="70" y="736" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="700" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">32</text>
+<text x="40" y="700" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">    </tspan>
 <tspan fill="#db9833" font-weight="700">Ok</tspan>
 <tspan fill="#bcac8f">(</tspan>
@@ -305,11 +307,11 @@
 <tspan fill="#db9833" font-weight="700">false</tspan>
 <tspan fill="#bcac8f">))</tspan>
 </text>
-<text x="28" y="758" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">33</text>
-<text x="70" y="758" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="720" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">33</text>
+<text x="40" y="720" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 <tspan fill="#bcac8f">}</tspan>
 </text>
-<text x="28" y="780" fill="#444444" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">34</text>
-<text x="70" y="780" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<text x="28" y="740" fill="#444444" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" text-anchor="end">34</text>
+<text x="40" y="740" font-family="IoskeleyMono Nerd Font, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
 </text>
 </svg>

@@ -76,4 +76,6 @@ augroup end
 [papercolor-theme-slim]: https://github.com/pappasam/papercolor-theme-slim
 [winborder]: https://neovim.io/doc/user/options.html#'winborder'
 
+## License
+
 MIT License - see [LICENSE](LICENSE) for details.

@@ -15,3 +15,13 @@ gen-gallery: ## Generate the gallery of images
 		-c "echo ''" \
 		-c "qa!"
 	@echo "Screenshots generated in ./gallery/outputs/"
+
+gen-variants: ## Generate README variant preview SVGs
+	@echo "Generating variant preview SVGs..."
+	@mkdir -p ./gallery/variants
+	@nvim --clean --headless \
+		-c "execute 'set runtimepath^=' . fnameescape(getcwd())" \
+		-c "cd ./gallery" \
+		-c "try | execute 'luafile ./generate-variants.lua' | catch | cquit | endtry" \
+		-c "qa!"
+	@echo "Variant previews generated in ./gallery/variants/"

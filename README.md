@@ -13,6 +13,16 @@ This project keeps the slim, direct-highlight architecture of [papercolor-theme-
 - `kintsugi-light`
 - `kintsugi-light-flared`
 
+Preview SVGs are generated from [gallery/inputs/sample.rs](gallery/inputs/sample.rs) with `make gen-variants`.
+
+| `kintsugi-dark` | `kintsugi-dark-flared` |
+| --- | --- |
+| ![kintsugi-dark Rust preview](gallery/variants/kintsugi-dark.svg) | ![kintsugi-dark-flared Rust preview](gallery/variants/kintsugi-dark-flared.svg) |
+
+| `kintsugi-light` | `kintsugi-light-flared` |
+| --- | --- |
+| ![kintsugi-light Rust preview](gallery/variants/kintsugi-light.svg) | ![kintsugi-light-flared Rust preview](gallery/variants/kintsugi-light-flared.svg) |
+
 ## Installation
 
 Install this repository like any other [Neovim package] or colorscheme plugin.

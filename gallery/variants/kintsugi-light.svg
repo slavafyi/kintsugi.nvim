@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="830" viewBox="0 0 920 830">
+<rect width="100%" height="100%" fill="#f8f4ea"/>
+<text x="28" y="30" fill="#9a7820" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">kintsugi-light</text>
+<text x="892" y="30" fill="#9a8858" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" text-anchor="end">sample.rs</text>
+<text x="28" y="54" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">1</text>
+<text x="70" y="54" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#9a7820" font-weight="700">pub</tspan>
+<tspan fill="#2a2818"> </tspan>
+<tspan fill="#9a7820" font-weight="700">fn</tspan>
+<tspan fill="#2a2818"> schema_or_config&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
+<tspan fill="#2a2818">, T&gt;(</tspan>
+</text>
+<text x="28" y="76" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">2</text>
+<text x="70" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    schema: </tspan>
+<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan fill="#2a2818">Bound&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
+<tspan fill="#2a2818">, PyDict&gt;,</tspan>
+</text>
+<text x="28" y="98" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">3</text>
+<text x="70" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    config: </tspan>
+<tspan fill="#5a6060">Option</tspan>
+<tspan fill="#2a2818">&lt;</tspan>
+<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan fill="#2a2818">Bound&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
+<tspan fill="#2a2818">, PyDict&gt;&gt;,</tspan>
+</text>
+<text x="28" y="120" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">4</text>
+<text x="70" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    schema_key: </tspan>
+<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan fill="#2a2818">Bound&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
+<tspan fill="#2a2818">, PyString&gt;,</tspan>
+</text>
+<text x="28" y="142" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">5</text>
+<text x="70" y="142" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    config_key: </tspan>
+<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan fill="#2a2818">Bound&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
+<tspan fill="#2a2818">, PyString&gt;,</tspan>
+</text>
+<text x="28" y="164" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">6</text>
+<text x="70" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">) -&gt; PyResult&lt;</tspan>
+<tspan fill="#5a6060">Option</tspan>
+<tspan fill="#2a2818">&lt;T&gt;&gt;</tspan>
+</text>
+<text x="28" y="186" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">7</text>
+<text x="70" y="186" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#9a7820" font-weight="700">where</tspan>
+</text>
+<text x="28" y="208" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">8</text>
+<text x="70" y="208" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    T: FromPyObject&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
+<tspan fill="#2a2818">&gt;,</tspan>
+</text>
+<text x="28" y="230" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">9</text>
+<text x="70" y="230" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">{</tspan>
+</text>
+<text x="28" y="252" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">10</text>
+<text x="70" y="252" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    </tspan>
+<tspan fill="#9a7820" font-weight="700">match</tspan>
+<tspan fill="#2a2818"> schema.get_as(schema_key)</tspan>
+<tspan fill="#5a6060" font-weight="700">?</tspan>
+<tspan fill="#2a2818"> {</tspan>
+</text>
+<text x="28" y="274" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">11</text>
+<text x="70" y="274" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">        </tspan>
+<tspan fill="#5a6060" font-weight="700">Some</tspan>
+<tspan fill="#2a2818">(v) =&gt; </tspan>
+<tspan fill="#5a6060" font-weight="700">Ok</tspan>
+<tspan fill="#2a2818">(</tspan>
+<tspan fill="#5a6060" font-weight="700">Some</tspan>
+<tspan fill="#2a2818">(v)),</tspan>
+</text>
+<text x="28" y="296" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">12</text>
+<text x="70" y="296" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">        </tspan>
+<tspan fill="#5a6060" font-weight="700">None</tspan>
+<tspan fill="#2a2818"> =&gt; </tspan>
+<tspan fill="#9a7820" font-weight="700">match</tspan>
+<tspan fill="#2a2818"> config {</tspan>
+</text>
+<text x="28" y="318" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">13</text>
+<text x="70" y="318" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">            </tspan>
+<tspan fill="#5a6060" font-weight="700">Some</tspan>
+<tspan fill="#2a2818">(config) =&gt; config.get_as(config_key),</tspan>
+</text>
+<text x="28" y="340" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">14</text>
+<text x="70" y="340" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">            </tspan>
+<tspan fill="#5a6060" font-weight="700">None</tspan>
+<tspan fill="#2a2818"> =&gt; </tspan>
+<tspan fill="#5a6060" font-weight="700">Ok</tspan>
+<tspan fill="#2a2818">(</tspan>
+<tspan fill="#5a6060" font-weight="700">None</tspan>
+<tspan fill="#2a2818">),</tspan>
+</text>
+<text x="28" y="362" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">15</text>
+<text x="70" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">        },</tspan>
+</text>
+<text x="28" y="384" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">16</text>
+<text x="70" y="384" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    }</tspan>
+</text>
+<text x="28" y="406" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">17</text>
+<text x="70" y="406" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">}</tspan>
+</text>
+<text x="28" y="428" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">18</text>
+<text x="70" y="428" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+</text>
+<text x="28" y="450" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">19</text>
+<text x="70" y="450" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#9a7820" font-weight="700">pub</tspan>
+<tspan fill="#2a2818"> </tspan>
+<tspan fill="#9a7820" font-weight="700">fn</tspan>
+<tspan fill="#2a2818"> schema_or_config_same&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
+<tspan fill="#2a2818">, T&gt;(</tspan>
+</text>
+<text x="28" y="472" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">20</text>
+<text x="70" y="472" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    schema: </tspan>
+<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan fill="#2a2818">Bound&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
+<tspan fill="#2a2818">, PyDict&gt;,</tspan>
+</text>
+<text x="28" y="494" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">21</text>
+<text x="70" y="494" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    config: </tspan>
+<tspan fill="#5a6060">Option</tspan>
+<tspan fill="#2a2818">&lt;</tspan>
+<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan fill="#2a2818">Bound&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
+<tspan fill="#2a2818">, PyDict&gt;&gt;,</tspan>
+</text>
+<text x="28" y="516" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">22</text>
+<text x="70" y="516" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    key: </tspan>
+<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan fill="#2a2818">Bound&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
+<tspan fill="#2a2818">, PyString&gt;,</tspan>
+</text>
+<text x="28" y="538" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">23</text>
+<text x="70" y="538" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">) -&gt; PyResult&lt;</tspan>
+<tspan fill="#5a6060">Option</tspan>
+<tspan fill="#2a2818">&lt;T&gt;&gt;</tspan>
+</text>
+<text x="28" y="560" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">24</text>
+<text x="70" y="560" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#9a7820" font-weight="700">where</tspan>
+</text>
+<text x="28" y="582" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">25</text>
+<text x="70" y="582" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    T: FromPyObject&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;py</tspan>
+<tspan fill="#2a2818">&gt;,</tspan>
+</text>
+<text x="28" y="604" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">26</text>
+<text x="70" y="604" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">{</tspan>
+</text>
+<text x="28" y="626" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">27</text>
+<text x="70" y="626" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    schema_or_config(schema, config, key, key)</tspan>
+</text>
+<text x="28" y="648" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">28</text>
+<text x="70" y="648" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">}</tspan>
+</text>
+<text x="28" y="670" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">29</text>
+<text x="70" y="670" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+</text>
+<text x="28" y="692" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">30</text>
+<text x="70" y="692" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#9a7820" font-weight="700">pub</tspan>
+<tspan fill="#2a2818"> </tspan>
+<tspan fill="#9a7820" font-weight="700">fn</tspan>
+<tspan fill="#2a2818"> is_strict(schema: </tspan>
+<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan fill="#2a2818">Bound&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;_</tspan>
+<tspan fill="#2a2818">, PyDict&gt;, config: </tspan>
+<tspan fill="#5a6060">Option</tspan>
+<tspan fill="#2a2818">&lt;</tspan>
+<tspan fill="#9a7820" font-weight="700">&amp;</tspan>
+<tspan fill="#2a2818">Bound&lt;</tspan>
+<tspan fill="#5a6060" font-weight="700">&apos;_</tspan>
+<tspan fill="#2a2818">, PyDict&gt;&gt;) -&gt; PyResult&lt;</tspan>
+<tspan fill="#5a6060">bool</tspan>
+<tspan fill="#2a2818">&gt; {</tspan>
+</text>
+<text x="28" y="714" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">31</text>
+<text x="70" y="714" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    </tspan>
+<tspan fill="#9a7820" font-weight="700">let</tspan>
+<tspan fill="#2a2818"> py = schema.py();</tspan>
+</text>
+<text x="28" y="736" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">32</text>
+<text x="70" y="736" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">    </tspan>
+<tspan fill="#5a6060" font-weight="700">Ok</tspan>
+<tspan fill="#2a2818">(schema_or_config_same(schema, config, </tspan>
+<tspan fill="#9a7820" font-weight="700">intern!</tspan>
+<tspan fill="#2a2818">(py, </tspan>
+<tspan fill="#3a6820">&quot;strict&quot;</tspan>
+<tspan fill="#2a2818">))</tspan>
+<tspan fill="#5a6060" font-weight="700">?</tspan>
+<tspan fill="#2a2818">.unwrap_or(</tspan>
+<tspan fill="#5a6060" font-weight="700">false</tspan>
+<tspan fill="#2a2818">))</tspan>
+</text>
+<text x="28" y="758" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">33</text>
+<text x="70" y="758" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+<tspan fill="#2a2818">}</tspan>
+</text>
+<text x="28" y="780" fill="#b6b4ac" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" text-anchor="end">34</text>
+<text x="70" y="780" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+</text>
+</svg>

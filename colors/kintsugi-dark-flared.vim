@@ -67,8 +67,8 @@ hi TabLine                  guifg=#ccccc7 guibg=#1a1a1d gui=NONE
 hi TabLineFill              guifg=#131314 guibg=#131314 gui=NONE
 hi TabLineSel               guifg=#dddddd guibg=#161618 gui=NONE
 hi Title                    guifg=#dbad49 guibg=NONE    gui=bold
-hi Visual                   guifg=#dddddd guibg=#6c7a8a gui=NONE
-hi VisualNOS                guifg=#dddddd guibg=#6c7a8a gui=NONE
+hi Visual                   guifg=#dddddd guibg=#26292d gui=NONE
+hi VisualNOS                guifg=#dddddd guibg=#26292d gui=NONE
 hi WarningMsg               guifg=#ebcb8b guibg=NONE    gui=NONE
 hi Whitespace               guifg=#474541 guibg=NONE    gui=NONE
 hi WildMenu                 guifg=#dddddd guibg=#dbac35 gui=NONE

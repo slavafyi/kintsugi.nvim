@@ -25,55 +25,80 @@ Preview SVGs are generated from [gallery/inputs/sample.rs](gallery/inputs/sample
 
 ## Installation
 
-Install this repository like any other [Neovim package] or colorscheme plugin.
+This theme is a native Neovim colorscheme: it only provides `colors/*.vim`
+files and does not have a Lua `setup()` function.
+
+### `vim.pack`
+
+```lua
+vim.pack.add({
+  "https://github.com/slavafyi/kintsugi.nvim",
+})
+
+vim.cmd.colorscheme("kintsugi-dark")
+```
+
+### `lazy.nvim`
+
+```lua
+{
+  "slavafyi/kintsugi.nvim",
+  lazy = false,
+  priority = 1000,
+  config = function()
+    vim.cmd.colorscheme("kintsugi-dark")
+  end,
+}
+```
+
+Use any variant from the list above in place of `kintsugi-dark`.
 
 ## Configuration
 
-```vim
-set termguicolors
+```lua
+vim.o.termguicolors = true
+vim.cmd.colorscheme("kintsugi-dark")
 
-" Primary/default variant
-colorscheme kintsugi-dark
-
-" Other variants
-" colorscheme kintsugi-dark-flared
-" colorscheme kintsugi-light
-" colorscheme kintsugi-light-flared
-
-" Ensure cursor highlights predictably.
-set guicursor=n-v-sm:block-Cursor,i-ci-c-ve:ver25-Cursor,r-cr-o:hor20-Cursor
-
-" Recommended if using Neovim 0.11+.
-set winborder=rounded
+-- Recommended on Neovim 0.11+.
+vim.o.winborder = "rounded"
 ```
 
 ## Customization
 
-Use normal Neovim highlight overrides. Define overrides before loading the colorscheme when possible.
+Use normal Neovim highlight overrides. Define override autocommands before
+loading the colorscheme when possible.
 
 ### Transparent background
 
-```vim
-autocmd ColorScheme kintsugi-dark,kintsugi-dark-flared,kintsugi-light,kintsugi-light-flared highlight Normal guibg=NONE
+```lua
+vim.api.nvim_create_autocmd("ColorScheme", {
+  pattern = "kintsugi-*",
+  callback = function()
+    vim.api.nvim_set_hl(0, "Normal", { bg = "NONE" })
+  end,
+})
 ```
 
 ### Override a color
 
-```vim
-autocmd ColorScheme kintsugi-light highlight Normal guibg=#f8f4ea
+```lua
+vim.api.nvim_create_autocmd("ColorScheme", {
+  pattern = "kintsugi-light",
+  callback = function()
+    vim.api.nvim_set_hl(0, "Normal", { bg = "#f8f4ea" })
+  end,
+})
 ```
 
 ### Third-party plugin support
 
-```vim
-function s:kintsugi_linking()
-  highlight link ExamplePluginHighlightGroup CursorLine
-endfunction
-
-augroup colorscheme_overrides_custom
-  autocmd!
-  autocmd ColorScheme kintsugi-dark,kintsugi-dark-flared,kintsugi-light,kintsugi-light-flared call s:kintsugi_linking()
-augroup end
+```lua
+vim.api.nvim_create_autocmd("ColorScheme", {
+  pattern = "kintsugi-*",
+  callback = function()
+    vim.api.nvim_set_hl(0, "ExamplePluginHighlightGroup", { link = "CursorLine" })
+  end,
+})
 ```
 
 ## Credits
